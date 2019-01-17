@@ -1,0 +1,192 @@
+
+body{
+		overflow-x:hidden;
+}
+
+ul {
+    list-style-type: none;
+	margin-top:100px;
+    overflow: hidden;
+    background-color: white;
+	box-sizing:border-box;
+	width:1367px;
+	height:100px;
+	box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.5);
+	
+}
+
+li {
+    display:inline;
+	background-color:black;
+
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    padding: 10px 100px;
+    text-decoration: none;
+	font-family: Courier New;
+	font-size:18px;
+	margin-top:3px;
+	border:20px;
+	padding-top:50px;
+}
+
+
+.back1{
+	     padding:10px 19px;
+		 margin-top:3px;	
+         margin-left:-6px;		 
+		 background-size:cover;
+		 background-repeat:no-repeat;
+		 background-image:url("../Negrapic/bground1.png"); 
+		 background-attachment:fixed;
+		 min-height:820px;
+		 height:1009px;
+         width: 1368px; 
+         box-sizing: border-box;
+		 
+} 	
+
+.negname1{
+	   position: absolute;
+	  box-sizing:border-box;
+	  border-color:white;
+	  margin-top:-120px;
+      margin-left:-20px;
+	  font-size:30px;
+	
+}
+.Negboxx{
+	   position: absolute;
+	  box-sizing:border-box;
+	  border-color:white;
+	  margin-top:250px;
+      margin-left:230px;
+	  font-size:30px;
+}
+
+
+.snip1573 {
+  background-color: #000;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  max-height: 750px;
+  min-width: 750px;
+  max-height: 650px;
+  min-height:650px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin-left: 20px;
+  
+}
+
+.snip1573 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.snip1573:before,
+.snip1573:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  background-color: #F8F8FF;
+  border-left: 3px solid #fff;
+  border-right: 3px solid #fff;
+  content: '';
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.snip1573:before {
+  -webkit-transform: skew(45deg) translateX(-155%);
+  transform: skew(45deg) translateX(-155%);
+}
+
+.snip1573:after {
+  -webkit-transform: skew(45deg) translateX(155%);
+  transform: skew(45deg) translateX(155%);
+}
+
+.snip1573 img {
+  backface-visibility: hidden;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.snip1573 figcaption {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%) scale(0.5);
+  transform: translate(-50%, -50%) scale(0.5);
+  opacity: 0;
+  -webkit-box-shadow: 0 0 10px #000000;
+  box-shadow: 0 0 10px #000000;
+}
+
+.snip1573 h3 {
+  background-color: #000;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 5px 10px;
+  font-family: Tekton Pro;
+}
+
+.snip1573 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.snip1573:hover > img,
+.snip1573.hover > img {
+  opacity: 0.5;
+}
+
+.snip1573:hover:before,
+.snip1573.hover:before {
+  -webkit-transform: skew(45deg) translateX(-55%);
+  transform: skew(45deg) translateX(-55%);
+}
+
+.snip1573:hover:after,
+.snip1573.hover:after {
+  -webkit-transform: skew(45deg) translateX(55%);
+  transform: skew(45deg) translateX(55%);
+}
+
+.snip1573:hover figcaption,
+.snip1573.hover figcaption {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+.p1{
+      position: absolute;
+	  width:850px;
+	  height:750px;
+	  box-sizing:border-box;
+	  border-color:white;
+	  margin-left: -390px;
+	 
